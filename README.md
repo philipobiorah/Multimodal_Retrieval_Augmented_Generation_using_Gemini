@@ -466,7 +466,7 @@ The repository restructures the workflow for use in Colab and for explaining the
 
 ## Author
 
-**Philip Obiorah, PhD**  
+**Philip Obiorah**  
 Learning Development Coach in Computing, University of Buckingham  
 Lead, GDG Cloud Port Harcourt
 
