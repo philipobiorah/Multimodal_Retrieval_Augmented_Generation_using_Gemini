@@ -1,12 +1,21 @@
 # Multimodal Retrieval-Augmented Generation using Gemini
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/philipobiorah/Multimodal_Retrieval_Augmented_Generation_using_Gemini/blob/main/v2_colab_intro_multimodal_rag_colab.ipynb)
+[![Read on Medium](https://img.shields.io/badge/Read%20the%20Tutorial-Medium-000000?logo=medium&logoColor=white)](https://medium.com/@philipsatimor2/building-multimodal-rag-systems-with-gemini-a6ff515c2d02?sharedUserId=philipsatimor2)
 
 A practical, teaching-focused implementation of **Multimodal Retrieval-Augmented Generation (RAG)** using Gemini. The project demonstrates how to search and reason across rich PDF documents containing text, tables, charts, graphs and other images.
 
 Unlike text-only RAG, this workflow builds searchable representations for both document text and visual content. A user can retrieve relevant text chunks, retrieve images using a text query, search for similar images using an image query, and combine the selected evidence for grounded generation with Gemini.
 
 > The central idea is not simply to upload a PDF to Gemini. The system first retrieves the most relevant textual and visual evidence, augments the prompt with that evidence, and then asks Gemini to generate a grounded response.
+
+## Accompanying tutorial
+
+A full, illustrated walkthrough of the concepts, code and retrieval stages is available on Medium:
+
+**[Building Multimodal RAG Systems with Gemini](https://medium.com/@philipsatimor2/building-multimodal-rag-systems-with-gemini-a6ff515c2d02?sharedUserId=philipsatimor2)**
+
+The article explains why text-only retrieval can fail on rich documents, how the notebook creates text and image metadata, and how text-to-text, text-to-image and image-to-image retrieval are combined into a grounded multimodal RAG pipeline.
 
 ## Project objectives
 
@@ -449,6 +458,11 @@ This project was developed as a teaching-focused adaptation of the Google Skills
 https://www.skills.google/course_templates/981/labs/629204
 
 The repository restructures the workflow for use in Colab and for explaining the concepts progressively, from individual retrieval modes to a complete multimodal RAG pipeline.
+
+## Further reading
+
+- **Medium tutorial:** [Building Multimodal RAG Systems with Gemini](https://medium.com/@philipsatimor2/building-multimodal-rag-systems-with-gemini-a6ff515c2d02?sharedUserId=philipsatimor2)
+- **Google Skills lab:** [Inspect Rich Documents with Gemini Multimodality and Multimodal RAG](https://www.skills.google/course_templates/981/labs/629204)
 
 ## Author
 
